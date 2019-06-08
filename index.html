@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home | Jarkol</title>
+	<link rel="shortcut icon" href="images/Logo_Jarkol_Symbol.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<!-- Google Fonts -->
+	<link
+		href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Monsterrat:400,700|Merriweather:400,300italic,700'
+		rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Magnific Popup-->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Cards -->
+	<link rel="stylesheet" href="css/cards.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<TABLE>
+			<tr>
+				<td width="200" height="40"></td>
+				<td width="100" height="40"></td>
+				<td width="300" height="40"></td>
+				<td width="350" height="40"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td width="200" height="100"></td>
+				<td><img src="images/Logo_Jarkol_Symbol.webp" height="80" width="75"></td>
+				<td width="300" height="80">
+					<e>JARKOL TECHNOLOGIES</e>
+					<d>Servicios de Ingeniería y Tecnología</d>
+				</td>
+				<td width="350" height="100">
+				<td height="30" width="30">
+					<TABLE>
+						<tr>
+							<td height="30" width="20"></td>
+						</tr>
+						<tr>
+							<td height="40" width="30" style="border-right: 1px solid grey;"><img src="images/USA.svg"
+									height="20" width="20"></td>
+						</tr>
+					</table>
+				</td>
+				<td height="30" width="30">
+					<TABLE>
+						<tr>
+							<td height="30" width="20"></td>
+						</tr>
+						<tr>
+							<td height="40" width="30" align="right"><img src="images/mexico.png" height="20"
+									width="20"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</TABLE>
+		<table>
+			<tr>
+				<td width="200" height="10" bgcolor="#dedede"></td>
+				<td width="500" height="10" bgcolor="#dedede">
+					<nav>
+						<ul id="menu">
+							<li><a onclick="changeIframeSrc('principal.html');"type="button">Principal</a></li>
+							<li><a onclick="changeIframeSrc('reservaciones.html');" type="button">Reserva una reunión</a></li>
+							<li><a onclick="changeIframeSrc('servicios.html');" type="button">Productos y servicios</a></li>
+							<li><a onclick="changeIframeSrc('clientes.html');" type="button">Clientes</a></li>
+							<li><a onclick="changeIframeSrc('contacto.html');" type="button">Contacto</a></li>
+						</ul>
+					</nav>
+				</td>
+				<td width="180" height="10" bgcolor="#dedede"></td>
+				<td width="100" height="10" bgcolor="#dedede"><a href="#"><font color="#000000">SALES@JARCOL.COM</font></a></td>
+				<td width="20" height="10" bgcolor="#dedede"></td>
+				<td bgcolor="#dedede"><a href="https://www.facebook.com/JarkolTech/"><img src="images/FB.png" alt="FB JARKOL" width="18" height="16"></a></td>
+				<td width="300" height="10" bgcolor="#dedede"></td>
+		</table>
+	</header>
+	<div id="cont">
+		<iframe id="cible" src="principal.html" scrolling="no" height="1200px"></iframe>
+	</div>
+</body>
+
+</html>
+<script type="text/javascript">
+
+	function changeIframeSrc(url) {
+		document.getElementById('cible').src = url;
+		console.log(document.getElementById('cible').contentWindow.document.body.scrollHeight);
+		document.getElementById('cible').style.height = document.getElementById('cible').contentWindow.document.body.scrollHeight;
+		document.getElementById('cible').style.width = document.getElementById('cible').contentWindow.document.body.scrollWidth;
+	}
+</script>

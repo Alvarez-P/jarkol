@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+  }
+  body {
+    margin:0;
+      padding:0;
+  }
+  /*
+  /////////////////////////////////////////////////////
+  Styles contacto
+  ///////////////////////////////////////////////////// 
+  */
+  .container{
+      width: 100%;
+  }
+  .container.contacto{
+    background-color: #435494;
+    color: #fff;
+    text-align: left;
+  }
+  form textarea, form input{
+    background-color: #435494;
+    padding-left: 5px; 
+    border: 2px solid #fff;
+    width: 83%;
+    margin:auto;
+    margin-left: 15px;
+  }
+ 
+  .container.contacto .mapa{
+    padding: 50px;
+  }
+  form textarea{
+    height: 150px;
+  }
+  .form_email, .form_textArea{
+    padding-bottom:15px;
+  }
+  .form{
+    display: inline;
+    margin: right;
+    padding: 10px 10px 15px 15px;
+  }
+  .form input{
+    padding-left: 5px; 
+    width: 40%;
+    height: 2em;
+    margin-left: 15px;
+    border: 2px solid #fff;
+    background-color:inherit;
+  }
+  .form_span{
+    width: 80%;
+    margin:left;
+    text-align: justify;
+  }
+  .col-md-6.contacto a{
+    text-align: left;
+  }
+  .row.contact{
+      padding: 20px;
+      text-align: center;
+  }
+  .contacto h1{
+    padding-top: 40px;
+    color:#fff;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+  }
+  .form_span h2{
+    padding-top: 40px;
+    color:#fff;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .form_span span{
+    text-align: justify;
+    text-align: center;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 30%;
+    font-family: 'Raleway', sans-serif;
+  }
+  form input::placeholder , textarea::placeholder {
+    color: #fff;
+  }
+  .col-md-6.contacto a{
+    color:#fff;
+    line-height: 20px;
+    font-size: 18px;
+    
+  }
+  .button_form button{
+    background-color: #dedede; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 83%;
+    margin:auto;
+    margin-left: 15px;
+  }
+  .error{
+    width: 100%;
+    height: 100%;
+  }
+  .button_form p{
+    color: red;
+    font-size: 15px;
+    font-family: inherit;
+    text-align: center;
+    padding: 10px;
+  }
+  .row.contact{
+    text-align: center;
+  }
+  .row.contact h2, .row.contact a{
+    font-size:18px;padding: 10px 10px 15px 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contact a{
+    color:#000;
+  }
+  .contact h3{
+    text-align: center;
+    font-weight: bold;
+    font-size:17px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  footer{
+    text-align: center;
+    color:#fff;
+    font-size:15px;
+    font-family: inherit;
+    background-color: #435494; 
+    padding: 5px;
+    margin-top:50px;
+    width: 100%;
+  }
+  
+  /*
+  ///////////////////////////////////////////////////
+ Clientes
+  ///////////////////////////////////////////////////
+  */
+  .container.clientes,.container.clientes h1{
+    font-family: 'Arial', sans-serif;
+    font-weight: 100;
+    color:#fff;
+    background-color: #435494; 
+    padding-top: 30px;
+  }
+  .row.clientes{
+    width:70%;
+    margin:auto;
+  }
+  .clients{
+    height: auto;
+    padding-bottom:60px; 
+  }
+  .clients .row {
+    margin-top:200px;
+  }
+  .container.clients{
+    background-color: #313131;
+  }
+  .img-cli{
+    width:180px;
+    height: 100px;
+  }
+  .col-md-5{
+    background-color: #fff;
+  }
+  .clients{
+    color:#fff;
+  }
+   /*
+  ///////////////////////////////////////////////////
+  Servicios
+  ///////////////////////////////////////////////////
+  */
+  .banner-1{
+    background: url(../images/Electronica.jpg);
+    float:left;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .banner-1 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .servicios .row{
+    width: 70%;
+    margin: auto;
+    height: auto;
+  }
+  .servicios div{
+    padding: 30px 30px 0px 0px;
+  }
+  .banner-1 h3, .servicios h2, .servicios p {
+    text-align: center;
+    color:#fff;
+  }
+  .servicios{
+    background-color: #435494;
+  }
+  /*
+  ///////////////////////////////////////////////////
+  My mediaqueries
+  ///////////////////////////////////////////////////
+  */
+  @media screen and (max-width: 1200px){ /*1024px*/
+    
+  }
+  @media screen and (max-width: 768px){
+    
+  }
+  @media screen and (max-width: 37.5em){ /*600px*/
+    .form input{
+        padding-left: 5px; 
+        width: 90%;
+        height: 2em;
+        margin-bottom:10px;
+      }
+    form textArea, form input{
+        width: 90%;
+    }
+    form .button_form{
+        width:109%;
+    }
+    .contacto a{
+        color:#fff;
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .contacto h1{
+        font-size: 30px;
+    }
+    .contacto span{
+        font-size: 20px;
+        text-align: center;
+    }
+    .row.contact h2{
+        margin-top:22px;
+    }
+    .form{
+        padding:50px;
+    }
+    .clients, .clientes{
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    .clients p{
+      margin-top:20px;
+    }
+    .clients .row {
+      margin-top:100px;
+    }
+  }
+  @media screen and (max-width: 30em){ /*480px*/
+    
+  }
+  
+  @media screen and (max-width: 20em){ /*320px*/
+   
+    
+  }
+  
+  

@@ -61,13 +61,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #3899EC;
+  background: rgba(246, 81, 0, 1);
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #435494;
+  background: rgba(246, 81, 0, 1);
   color: #fff;
 }
 
@@ -349,7 +349,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #3899EC;
+  color: rgba(246, 81, 0, 1);
 }
 
 .nav-menu > li {
@@ -841,17 +841,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
+  background: rgba(246, 81, 0, 1);
   padding: 8px 26px;
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   color: #fff;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #3899EC;
-  border: 3px solid #3899EC;
+  background: rgba(246, 82, 0, 0.555);
+  border: 2px solid rgb(253, 253, 253);
 }
 
 /* Our Team Section

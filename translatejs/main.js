@@ -9,17 +9,17 @@ var dict = {
     es: "Nosotros",
     en: "About Us"
   },
-  "Products & Services":{
-    es:"Productos y Servicios",
-    en:"Products & Services"
+  "Discover":{
+    en:"Discover",
+    es:"Ver más"
   },
   "Contact":{
     es:"Contacto",
     en:"Contact"
   },
-  "TECHNOLOGY & ENGINEERING SERVICES":{
+  "TECHNOLOGY AND ENGINEERING SERVICES":{
     es:"Servicios de Ingeniería y Tecnología",
-    en:"TECHNOLOGY & ENGINEERING SERVICES"
+    en:"TECHNOLOGY AND ENGINEERING SERVICES"
   },
   "Our Products and Services":{
     es:"Nuestros Productos y Servicios",
@@ -93,6 +93,10 @@ var dict = {
     en:"Drilling Engineering",
     es:"Ingeniería de perforación"
   },
+  "Technical Consulting":{
+    en:"Technical Consulting",
+    es:"Consultoría Técnica"
+  },
   "Do you have a particular challenge you are currently dealing with? Contact us today and explore what we can do for you.":{
     en:"Do you have a particular challenge you are currently dealing with? Contact us today and explore what we can do for you.",
     es:"¿Tienes un desafío particular con el que te estás enfrentando actualmente? Contáctenos hoy y explore lo que podemos hacer por usted."
@@ -109,6 +113,14 @@ var dict = {
     en:"Address",
     es:"Dirección"
   },
+  "Follow Us":{
+    en:"Follow Us",
+    es:"Síguenos"
+  },
+  "Contact Us":{
+    en:"Contact Us",
+    es:"Contáctanos"
+  }
 }; 
 var _t = $('body').translate({lang: "en", t: dict});
 var str = _t.g("translate");
@@ -120,6 +132,15 @@ $(".lang_selector").click(function(ev) {
     _t.lang(lang);
     console.log(lang);
     ev.preventDefault();
+    if(lang=="es"){
+      $("#tec").text("SERVICIOS DE INGENIERÍA Y TECNOLOGÍA");
+      $("#prod").text('Productos y Servicios');
+      $("#vision").text('Para convertirse en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina.');
+    }else{
+      $("#tec").text("TECHNOLOGY & ENGINEERING SERVICES");
+      $("#prod").text('Products & Services');
+      $("#vision").text('To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.');
+    }
   });
 });
 

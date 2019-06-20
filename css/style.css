@@ -729,6 +729,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
   background: rgba(0, 0, 0, 0.7);
 }
+.portfolio-info>h2 {
+  text-shadow: 5px 5px 5px #000;
+}
 
 #portfolio .portfolio-info {
   position: absolute;
@@ -817,7 +820,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: #081e5b;
+  background: #435494;
   background-size: cover;
   padding: 40px 0;
 }

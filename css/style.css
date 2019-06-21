@@ -843,16 +843,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   background: rgba(246, 81, 0, 1);
   padding: 8px 26px;
-  border-radius: 3px;
+  border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
   color: #fff;
 }
 
 #call-to-action .cta-btn:hover {
   background: rgba(246, 82, 0, 0.555);
-  border: 2px solid rgb(253, 253, 253);
 }
 
 /* Our Team Section

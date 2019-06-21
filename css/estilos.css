@@ -1,20 +1,18 @@
 .pdf-btn, .pdf-btn:visited, #contact .form button[type="submit"]{
     background-color:rgba(246, 81, 0, 1);
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 10px 32px;
+    padding: 8px 26px;
     border-radius: 2px;
     transition: 0.5s;
     margin: 10px;
     color: #fff;
   }
   .pdf-btn:hover, #contact .form button[type="submit"]:hover{
-    color:rgba(246, 81, 0, 1);
-    border:1px solid rgba(246, 81, 0, 1);
-    background-color: #fdefe6;
+    background: rgba(246, 82, 0, 0.555);
   }
   .pdf, .msg{
     text-align: center;

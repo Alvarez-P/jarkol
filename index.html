@@ -41,7 +41,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body id="body">
@@ -60,10 +60,8 @@
             class="fa fa-facebook"></i></a>
       </div>
       <div class="social-links float-right d-none d-lg-block d-md-block">
-        <p>
           <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en"><img src="img/USA.svg" height="20" alt=""></a>
           <a class="btn btn-default lang_selector trn" href="#" role="button"  data-value="es"><img src="img/mexico.png" height="20" alt=""></a>
-        </p>
       </div>
     </div>
   </section>
@@ -194,7 +192,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="fa fa-eye"></i></div>
-              <h4 class="title"><a href="" class="trn">Vission</a></h4>
+              <h4 class="title"><a href="" class="trn">Vision</a></h4>
               <p class="description trn" id="vision">​To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.</p>
             </div>
           </div>
@@ -229,7 +227,7 @@
     <section id="portfolio" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2 class="trn" id="prod">Products & Services</h2>
+          <h2 class="trn" id="prod1">Products & Services</h2>
           <h3 class="trn">The Cutting Edge</h3>
           <p class="trn">We offer a variety of services to all of our clients, customized to fit their specific needs. Are you a large corporation looking for a step-by-step plan of action? Or, are you are a small startup just beginning your business? No matter what your needs are, Jarkol Technologies is here to provide you guidance every step of the way. Take a look below to see what we can do for you.</p>
         </div>
@@ -348,7 +346,9 @@
     </section><!-- #portfolio -->
     <section id="clients" class="wow fadeInUp">
         <div class="container pdf">
-        <a href="productos&servicios.pdf" type="button" class="pdf-btn trn">Discover</a>
+            <div>
+                <a href="productos&servicios.pdf" target="_blank" class="pdf-btn"><small><strong class="trn">Discover</strong></small></a>
+            </div>
       </div>
     </section>
     <!--==========================
@@ -559,7 +559,9 @@
                     data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit" class="trn">Send Message</button></div>
+                <div class="msg">
+                    <button type="submit" class="text-center pdf-btn"><small><strong class="trn">Send Message</strong></small></button>
+                </div>
               </form>
               <br>
             </div>

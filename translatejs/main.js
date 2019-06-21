@@ -65,8 +65,8 @@ var dict = {
     en:"To provide, Import and develop technology for the Oil and Gas, Geothermal and Mining industry in the Mexican Market in order to promote and boost competitiveness.",
     es:"Para proporcionar, importar y desarrollar tecnología para la industria de petróleo y gas, geotérmica y minera en el Mercado mexicano para promover y potenciar la competitividad."
   },
-  "Vission":{
-    en:"Vission",
+  "Vision":{
+    en:"Vision",
     es:"Visión"
   },
   "To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.":{
@@ -133,12 +133,14 @@ $(".lang_selector").click(function(ev) {
     console.log(lang);
     ev.preventDefault();
     if(lang=="es"){
-      $("#tec").text("SERVICIOS DE INGENIERÍA Y TECNOLOGÍA");
-      $("#prod").text('Productos y Servicios');
+      $("#tec").text("SERVICIOS DE INGENIERÍA & TECNOLOGÍA");
+      $("#prod").text('Productos & Servicios');
+      $("#prod1").text('Productos & Servicios');
       $("#vision").text('Para convertirse en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina.');
     }else{
       $("#tec").text("TECHNOLOGY & ENGINEERING SERVICES");
       $("#prod").text('Products & Services');
+      $("#prod1").text('Products & Services');
       $("#vision").text('To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.');
     }
   });

@@ -9,8 +9,7 @@
  * translate.js is a jQuery plugin to translate text in the client side.
  *
  */
-
-(function($){
+jQuery(document).ready(function ($) { 
   $.fn.translate = function(options) {
 
     var that = this; //a reference to ourselves
@@ -82,4 +81,4 @@
 		
 
   };
-})(jQuery);
+});

@@ -144,6 +144,5 @@ $(".lang_selector").click(function(ev) {
       $("#vision").text('To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.');
     }
   });
-});
-
+ });
 

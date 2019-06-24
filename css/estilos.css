@@ -18,3 +18,58 @@
     text-align: center;
     height: 40px;
   }
+
+  /*
+  Clase para volver una imagen de fondo tipo parallax
+  */
+  .parallax {
+    background-blend-mode: screen;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    opacity: 0.5;
+  }
+
+  /*
+  Seccion parecida a clientes pero para poner las fotos
+  */
+
+  .carousel {
+    padding: 30px 0;
+  }
+  
+  .carousel img {
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.3s;
+    padding: 15px;
+  }
+
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: #ddd;
+  }
+  
+  
+  .carousel img:hover {
+    opacity: 1;
+  }
+  
+  .carousel .owl-nav,
+  .carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .carousel .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .carousel  .owl-dot.active {
+    background-color: #3899EC;
+  }

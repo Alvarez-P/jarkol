@@ -245,6 +245,8 @@ h6 {
 }
 
 #intro #intro-carousel::before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.459);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -672,7 +674,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ddd;
+  background: #ddd !important;
 }
 
 #clients .owl-dot.active {
@@ -819,23 +821,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 
-#call-to-action {
+.call-to-action {
   background: #435494;
   background-size: cover;
   padding: 40px 0;
 }
 
-#call-to-action .cta-title {
+.call-to-action .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+.call-to-action .cta-text {
   color: #fff;
 }
 
-#call-to-action .cta-btn {
+.call-to-action .cta-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -849,7 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+.call-to-action .cta-btn:hover {
   background: rgba(246, 82, 0, 0.555);
 }
 
@@ -1041,7 +1043,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
+  .call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

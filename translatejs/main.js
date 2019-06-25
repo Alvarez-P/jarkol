@@ -120,6 +120,38 @@ var dict = {
   "Contact Us":{
     en:"Contact Us",
     es:"Contáctanos"
+  },
+  "Comprehensive Approach":{
+    en:"COMPREHENSIVE APPROACH",
+    es:"Un enfoque integral"
+  },
+  "PTS Memory and Real time.":{
+    en:"PTS Memory and Real time.",
+    es:"Registros PTS en memoria y tiempo real"
+  },
+  "Precision beyond the surface":{
+    en:"PRECISION BEYOND THE SURFACE",
+    es:"Precisión hasta lo más profundo"
+  },
+  "Pressure and Temperature sensors.":{
+    en:"Pressure and Temperature sensors.",
+    es:"Sensores de presión y temperatura."
+  },
+  "The Path to Success":{
+    en:"THE PATH TO SUCCESS",
+    es:"El camino al éxito"
+  },
+  "Directional drilling services and MWD/LWD tools.":{
+    en:"Directional drilling services and MWD/LWD tools.",
+    es:"Servicios de perforación direccional y herramientas MWD/LWD."
+  },
+  "Expert Guidance":{
+    en:"EXPERT GUIDANCE",
+    es:"Un equipo de expertos"
+  },
+  "Over 15 years of technical experience in both onshore and offshore operations in the Oil and Gas Industry.":{
+    en:"Over 15 years of technical experience in both onshore and offshore operations in the Oil and Gas Industry.",
+    es:"Más de 15 años de experiencia técnica en operaciones tanto en tierra como en alta mar en la industria petrolera."
   }
 }; 
 var _t = $('body').translate({lang: "en", t: dict});

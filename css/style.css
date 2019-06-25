@@ -542,8 +542,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
+  margin-left: -50px;
+  max-width: 135%;
+  -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ transform: rotate(90deg);
 }
 
 #about .content h2 {

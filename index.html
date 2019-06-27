@@ -60,9 +60,9 @@
             class="fa fa-facebook"></i></a>
       </div>
       <div class="social-links float-right d-none d-lg-block d-md-block">
-        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en"><img src="img/USA.svg"
+        <a class="btn btn-default lang_selector trn" href="#" role="button" onclick="changeLang('en', event)"><img src="img/USA.svg"
             height="20" alt=""></a>
-        <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="es"><img src="img/mexico.png"
+        <a class="btn btn-default lang_selector trn" href="#" role="button" onclick="changeLang('es', event)"><img src="img/mexico.png"
             height="20" alt=""></a>
       </div>
     </div>
@@ -87,13 +87,16 @@
           <li><a href="#about" class="trn">About Us</a></li>
           <li><a href="#portfolio" class="trn" id="prod">Products & Services</a></li>
           <li><a href="#contact" class="trn">Contact</a></li>
+          <li class="menu-has-children d-md-none d-lg-none"><a>Language</a>
+            <ul style="">
+              <li><a class="lang_selector trn" href="#" onclick="changeLang('en', event)" role="button"> <img src="img/USA.svg"
+                    height="20" alt=""> Inglés</a></li>
+              <li>
+                <a class="lang_selector trn" href="#" onclick="changeLang('es', event)" role="button"><img src="img/mexico.png"
+                    height="20" alt=""> Español</a></li>
+            </ul>
+          </li>
         </ul>
-        <div class="social-links float-center d-md-none d-lg-none">
-            <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="en"><img src="img/USA.svg"
-                height="20" alt=""></a>
-            <a class="btn btn-default lang_selector trn" href="#" role="button" data-value="es"><img src="img/mexico.png"
-                height="20" alt=""></a>
-        </div>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->

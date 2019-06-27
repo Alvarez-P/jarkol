@@ -44,7 +44,9 @@
     opacity: 0.5;
     transition: 0.3s;
     padding: 15px;
+    border-radius: 5%
   }
+
 
   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
     background: #ddd;
@@ -52,7 +54,8 @@
   
   
   .carousel img:hover {
-    opacity: 1;
+    width: 200%;
+    opacity: 1.0;
   }
   
   .carousel .owl-nav,

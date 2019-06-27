@@ -152,8 +152,8 @@ var dict = {
     en: "Over 15 years of technical experience in both onshore and offshore operations in the Oil and Gas Industry.",
     es: "Más de 15 años de experiencia técnica en operaciones tanto en tierra como en alta mar en la industria petrolera."
   },
-  "Lenguage":{
-    en:"Lenguage",
+  "Language":{
+    en:"Language",
     es:"Lenguaje"
   },
   "English":{
@@ -163,6 +163,18 @@ var dict = {
   "Spanish":{
     en:"Spanish",
     es:"Español"
+  },
+  "Community outreach":{
+    en:"Community outreach",
+    es:"Alcance comunitario"
+  },
+  "We are an association that cares for the wellbeing of the community that will be in charge of leading to a better future in this country, so we have joined forces with the Foundation and Support for Youth that supports young people who are in situation of serious vulnerability and discrimination accompanying them in the planning of their life project.":{
+    en:"We are an association that cares for the wellbeing of the community that will be in charge of leading to a better future in this country, so we have joined forces with the Foundation and Support for Youth that supports young people who are in situation of serious vulnerability and discrimination accompanying them in the planning of their life project.",
+    es:"Somos una asociación que se preocupa por el bienestar de la comunidad que será la encargada de llevar a un mejor futuro este país, por ello hemos unido fuerzas con la Fundación de Apoyo a la Juventud que apoya a las y los jóvenes que se encuentran en situación de grave vulnerabilidad y discriminación acompañandolos en la planeación de su proyecto de vida."
+  },
+  "We are an association that cares about the technological development of the country, that's why we become one of the sponsors of the AAAI Student Chapter contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.":{
+    en:"We are an association that cares about the technological development of the country, that's why we become one of the sponsors of the AAAI Student Chapter contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.",
+    es:"Somos una asociación que se preocupa por el desarrollo tecnológico del país, por eso es que nos convertimos en uno de los sponsor del AAAI Student Chapter contribuyendo así a que más alumnos tengan conocimientos sobre inteligencia artificial y otros campos relacionados que actualmente se van volviendo mas populares"
   }
 };
 

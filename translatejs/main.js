@@ -159,22 +159,22 @@ var str = _t.g("translate");
 console.log(str);
 
 
-$(".lang_selector").click(function(ev) {
+  $(".lang_selector").click(function (ev) {
     var lang = $(this).attr("data-value");
     _t.lang(lang);
     console.log(lang);
     ev.preventDefault();
-    if(lang=="es"){
+    if (lang == "es") {
       $("#tec").text("SERVICIOS DE INGENIERÍA & TECNOLOGÍA");
       $("#prod").text('Productos & Servicios');
       $("#prod1").text('Productos & Servicios');
       $("#vision").text('Para convertirse en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina.');
-    }else{
+    } else {
       $("#tec").text("TECHNOLOGY & ENGINEERING SERVICES");
       $("#prod").text('Products & Services');
       $("#prod1").text('Products & Services');
       $("#vision").text('To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.');
     }
   });
- });
+});
 

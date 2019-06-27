@@ -541,15 +541,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#about .about-img img {
-  margin-left: -50px;
-  max-width: 135%;
-  -webkit-transform: rotate(90deg);
- -moz-transform: rotate(90deg);
- -ms-transform: rotate(90deg);
- transform: rotate(90deg);
-}
-
 #about .content h2 {
   color: #435494;
   font-weight: 700;
@@ -577,6 +568,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   padding-right: 4px;
   color: #3899EC;
+}
+
+#about .content span {
+  font-size: 22px;
+  font-weight: bold;
 }
 
 #about .content ul {
@@ -1041,7 +1037,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact .contact-email {
     padding: 20px 0;
   }
-
+  
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
@@ -1127,6 +1123,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 576px) {
+  #about .content ul li {
+    text-align: center;
+  }
   #contact #google-map {
     margin-top: 20px;
   }

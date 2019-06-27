@@ -54,8 +54,13 @@
   
   
   .carousel img:hover {
-    width: 200%;
+    width: 150%;
     opacity: 1.0;
+    margin-left:-80px;
+  }
+  #salt{
+    margin-left:40px;
+   margin-top:-40px
   }
   
   .carousel .owl-nav,

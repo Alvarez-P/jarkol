@@ -87,13 +87,13 @@
           <li><a href="#about" class="trn">About Us</a></li>
           <li><a href="#portfolio" class="trn" id="prod">Products & Services</a></li>
           <li><a href="#contact" class="trn">Contact</a></li>
-          <li class="menu-has-children d-md-none d-lg-none"><a class="trn">Lenguage</a>
+          <li class="menu-has-children d-md-none d-lg-none"><a class="trn">Language</a>
             <ul>
               <li><a class="lang_selector trn" href="#" onclick="changeLang('en', event)" role="button"> <img src="img/USA.svg"
-                    height="20" alt=""><a class="trn" id="salt">English</a></a></li>
+                    height="20" alt=""><a class="trn" id="salt" onclick="changeLang('en', event)">English</a></a></li>
               <li>
                 <a class="lang_selector trn" href="#" onclick="changeLang('es', event)" role="button"><img src="img/mexico.png"
-                    height="20" alt=""><a class="trn" id="salt">Spanish</a></a></li>
+                    height="20" alt=""><a class="trn" id="salt" onclick="changeLang('es', event)">Spanish</a></a></li>
             </ul>
           </li>
         </ul>
@@ -110,8 +110,7 @@
       <h2 class="trn"><strong>JARKOL TECHNOLOGIES</strong></h2>
 
       <div>
-        <a href="#about" class="btn-get-started scrollto"><small><strong id="tec">TECHNOLOGY & ENGINEERING
-              SERVICES</strong></small></a>
+        <a href="#about" class="btn-get-started scrollto"><small><strong id="tec">TECHNOLOGY & ENGINEERING SERVICES</strong></small></a>
       </div>
     </div>
 
@@ -161,8 +160,7 @@
               </li>
             </ul>
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i> <span class="trn">Directional Drilling and Logging
-                  Tools</span>
+              <li><i class="ion-android-checkmark-circle"></i> <span class="trn">Directional Drilling and Logging Tools</span>
                 <ul>
                   <li class="small text-uppercase font-italic Italica">
                     <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d><strong class="trn">The Path to Success</strong>
@@ -225,7 +223,7 @@
             <p class="cta-text trn">We are a service company for the Energy and Extraction Industry, with direct experience in Oil and Gas, Mining and Geothermal, particularly in drilling operations, geophysical logging with both wireline and while drilling tools and production parameters monitoring, focused on the introduction of new, better and more accesible technologies in the Latin American market.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle trn" href="#contact">Get in Touch</a>
+            <a class="cta-btn align-middle trn" href="docs/JARKOL_2019_SP.pdf">Discover</a>
           </div>
         </div>
 
@@ -405,8 +403,8 @@
                 <img src="img/portfolio/1.jpg">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info">
-                    <a href="docs/JARKOL_2019_SP.pdf" target="_blank">
-                      <h2 class="wow fadeInUp trn">Discover</h2>
+                    <a href="docs/productos&servicios.pdf" target="_blank">
+                      <h2 class="wow fadeInUp trn">Discover products</h2>
                     </a>
                   </div>
                 </div>
@@ -417,14 +415,16 @@
       </div>
     </section><!-- #portfolio -->
 
-
+    
     <!--==========================
       Testimonials Section
     ============================-->
     <!-- <section id="testimonials" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Testimonials</h2>
+          <h2>Testimonials</h2><div>
+      <a href="#about" class="btn-get-started scrollto"><small><strong id="tec">TECHNOLOGY & ENGINEERING SERVICES</strong></small></a>
+    </div>
           <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim
             export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export
             irure minim illum fore</p>
@@ -483,7 +483,7 @@
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
               Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              labore dui<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.3361918302385!2d-92.97005528511544!3d17.963089187736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDU3JzQ3LjEiTiA5MsKwNTgnMDQuMyJX!5e0!3m2!1ses!2smx!4v1561662480362!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>s sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
             <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
@@ -575,10 +575,38 @@
       </div>
     </section> #team -->
 
-    <!--==========================
+    
+   <!--==========================
+    Call To Action Section
+  ============================-->
+  <section class="wow fadeInUp call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-center text-lg-left">
+          <h2 class="cta-title trn">Community outreach</h2>
+          <p class="cta-text trn">We are an association that cares about the technological development of the country, that's why we become one of the sponsors of the AAAI Student Chapter contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.</p>
+        </div>
+        <div class="col-lg-4 text-center text-lg-right">
+          <a href="http://aaaimx.com/"><img src="img/aaaimx-transparent.png" width="200" alt=""></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 text-center text-lg-left d-none d-lg-block d-md-block">
+          <a href="https://apoyoalajuventud.org/"><img src="img/fundacion.png" width="250" alt=""></a>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right ">
+          <p class="cta-text trn">We are an association that cares for the wellbeing of the community that will be in charge of leading to a better future in this country, so we have joined forces with the Foundation and Support for Youth that supports young people who are in situation of serious vulnerability and discrimination accompanying them in the planning of their life project.</p>
+        </div>
+        <div class="col-lg-4 text-center text-lg-left d-md-none d-lg-none">
+          <a href="https://apoyoalajuventud.org/"><img src="img/fundacion.png" width="250" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section><!-- #call-to-action -->
+
+        <!--==========================
       Contact Section
     ============================-->
-    
     <section id="contact" class="wow fadeInUp">
 
 
@@ -587,9 +615,9 @@
         <div class="row">
 
           <div class="col-xs-12 col-sm-12 col-md-6">
-
+            
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.501405722098!2d-92.94666701860963!3d18.00191948616859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edd78d5d98eca3%3A0x8ceecfb8de237916!2sTABASCO+2000!5e0!3m2!1sen!2sbg!4v1560976615219!5m2!1sen!2sbg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.3361918302385!2d-92.97005528511544!3d17.963089187736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDU3JzQ3LjEiTiA5MsKwNTgnMDQuMyJX!5e0!3m2!1ses!2smx!4v1561662480362!5m2!1ses!2smx"
               width="100%" height="410" frameborder="0" style="border:0" allowfullscreen></iframe>
             <br>
             <br>
@@ -684,7 +712,8 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; 2019 BY <strong>JARKOL TECHNOLOGIES S.A. DE C.V.</strong>
+        &copy; 2019 BY <strong>JARKOL TECHNOLOGIES S.A. DE C.V.</strong><br>
+        <a href="http://aaaimx.com/">Powered by AAAIMX</a>
       </div>
     </div>
   </footer><!-- #footer -->

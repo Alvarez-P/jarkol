@@ -61,9 +61,9 @@ var dict = {
     en:"Our Mission",
     es:"Nuestra Misión"
   },
-  "Provide and develop technology and high quality services and impact for the oil, geothermal and mining industry in the Mexican market with the purpose of promoting and promoting competitiveness to provide our customers with the best solution to their projects.":{
-    en:"Provide and develop technology and high quality services and impact for the oil, geothermal and mining industry in the Mexican market with the purpose of promoting and promoting competitiveness to provide our customers with the best solution to their projects.",
-    es:"Proporcionar y desarrollar tecnología y servicios de alta calidad e impacto para la industria petrolera, geotérmica y minera en el mercado mexicano con el propósito de promover e impulsar la competitividad para brindar a nuestros clientes la mejor solución a sus proyectos."
+  "Provide, import and develop technology for the oil, geothermal and mining industry in the Mexican market in order to promote and boost competitiveness.":{
+    en:"Provide, import and develop technology for the oil, geothermal and mining industry in the Mexican market in order to promote and boost competitiveness.",
+    es:"Proporcionar, importar y desarrollar tecnología para la industria de petrolera, geotérmica y minera en el mercado mexicano con el fin de promover e impulsar la competitividad."
   },
   "Our Vision":{
     en:"Our Vision",

@@ -151,6 +151,18 @@ var dict = {
   "Over 15 years of technical experience in both onshore and offshore operations in the Oil and Gas Industry.": {
     en: "Over 15 years of technical experience in both onshore and offshore operations in the Oil and Gas Industry.",
     es: "Más de 15 años de experiencia técnica en operaciones tanto en tierra como en alta mar en la industria petrolera."
+  },
+  "Lenguage":{
+    en:"Lenguage",
+    es:"Lenguaje"
+  },
+  "English":{
+    en:"English",
+    es:"Inglés"
+  },
+  "Spanish":{
+    en:"Spanish",
+    es:"Español"
   }
 };
 

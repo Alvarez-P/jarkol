@@ -57,21 +57,21 @@ var dict = {
     en:"Get in Touch",
     es:"Contáctanos"
   },
-  "Mission":{
-    en:"Mission",
-    es:"Misión"
+  "Our Mission":{
+    en:"Our Mission",
+    es:"Nuestra Misión"
   },
-  "To provide, Import and develop technology for the Oil and Gas, Geothermal and Mining industry in the Mexican Market in order to promote and boost competitiveness.":{
-    en:"To provide, Import and develop technology for the Oil and Gas, Geothermal and Mining industry in the Mexican Market in order to promote and boost competitiveness.",
-    es:"Para proporcionar, importar y desarrollar tecnología para la industria de petróleo y gas, geotérmica y minera en el Mercado mexicano para promover y potenciar la competitividad."
+  "Provide and develop technology and high quality services and impact for the oil, geothermal and mining industry in the Mexican market with the purpose of promoting and promoting competitiveness to provide our customers with the best solution to their projects.":{
+    en:"Provide and develop technology and high quality services and impact for the oil, geothermal and mining industry in the Mexican market with the purpose of promoting and promoting competitiveness to provide our customers with the best solution to their projects.",
+    es:"Proporcionar y desarrollar tecnología y servicios de alta calidad e impacto para la industria petrolera, geotérmica y minera en el mercado mexicano con el propósito de promover e impulsar la competitividad para brindar a nuestros clientes la mejor solución a sus proyectos."
   },
-  "Vision":{
-    en:"Vision",
-    es:"Visión"
+  "Our Vision":{
+    en:"Our Vision",
+    es:"Nuestra Visión"
   },
-  "To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.":{
-    en:"To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.",
-    es:"Para convertirse en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina."
+  "To become one of the leading Mexican companies in the development of technology, integral solutions and strategic tools for the energy industry in Mexico and Latin America.":{
+    en:"To become one of the leading Mexican companies in the development of technology, integral solutions and strategic tools for the energy industry in Mexico and Latin America.",
+    es:"Convertirnos en una de las empresas mexicanas líderes en el desarrollo de tecnología, soluciones integrales y herramientas estratégicas para la industria energética en México y América Latina."
   },
   "Clients":{
     en:"Clients",
@@ -159,22 +159,22 @@ var str = _t.g("translate");
 console.log(str);
 
 
-$(".lang_selector").click(function(ev) {
+  $(".lang_selector").click(function (ev) {
     var lang = $(this).attr("data-value");
     _t.lang(lang);
     console.log(lang);
     ev.preventDefault();
-    if(lang=="es"){
+    if (lang == "es") {
       $("#tec").text("SERVICIOS DE INGENIERÍA & TECNOLOGÍA");
       $("#prod").text('Productos & Servicios');
       $("#prod1").text('Productos & Servicios');
       $("#vision").text('Para convertirse en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina.');
-    }else{
+    } else {
       $("#tec").text("TECHNOLOGY & ENGINEERING SERVICES");
       $("#prod").text('Products & Services');
       $("#prod1").text('Products & Services');
       $("#vision").text('To become one of the leading Mexican companies boosting the development of technology and strategical tools for the Energy Industry in Mexico and Latin America.');
     }
   });
- });
+});
 

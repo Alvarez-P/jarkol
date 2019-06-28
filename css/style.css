@@ -1126,6 +1126,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #about .content ul li {
     text-align: center;
   }
+  .fund img {
+    max-width: 80%;
+  }
   #contact #google-map {
     margin-top: 20px;
   }

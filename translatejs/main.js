@@ -68,8 +68,8 @@ var dict = {
     en: "Our Vision",
     es: "Nuestra Visión"
   },
-  "To become one of the leading Mexican companies in the development of technology, integral solutions and strategic tools for the energy industry in Mexico and Latin America.": {
-    en: "To become one of the leading Mexican companies in the development of technology, integral solutions and strategic tools for the energy industry in Mexico and Latin America.",
+  "To become one of the leading Mexican companies in the development of technology, integral solutions and strategic tools for the energy industry in México and Latin America.": {
+    en: "To become one of the leading Mexican companies in the development of technology, integral solutions and strategic tools for the energy industry in México and Latin America.",
     es: "Convertirnos en una de las empresas mexicanas líderes en el desarrollo de tecnología, soluciones integrales y herramientas estratégicas para la industria energética en México y América Latina."
   },
   "Clients": {
@@ -164,17 +164,21 @@ var dict = {
     en:"Spanish",
     es:"Español"
   },
-  "Community outreach":{
-    en:"Community outreach",
-    es:"Alcance comunitario"
+  "Community Outreach":{
+    en:"Community Outreach",
+    es:"Alcance Comunitario"
   },
-  "We are an association that cares for the wellbeing of the community that will be in charge of leading to a better future in this country, so we have joined forces with the Foundation and Support for Youth that supports young people who are in situation of serious vulnerability and discrimination accompanying them in the planning of their life project.":{
-    en:"We are an association that cares for the wellbeing of the community that will be in charge of leading to a better future in this country, so we have joined forces with the Foundation and Support for Youth that supports young people who are in situation of serious vulnerability and discrimination accompanying them in the planning of their life project.",
-    es:"Somos una asociación que se preocupa por el bienestar de la comunidad que será la encargada de llevar a un mejor futuro este país, por ello hemos unido fuerzas con la Fundación de Apoyo a la Juventud que apoya a las y los jóvenes que se encuentran en situación de grave vulnerabilidad y discriminación acompañandolos en la planeación de su proyecto de vida."
+  "Powered by":{
+    en:"Powered by",
+    es:"Desarrollado por"
   },
-  "We are an association that cares about the technological development of the country, that's why we become one of the sponsors of the AAAI Student Chapter contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.":{
-    en:"We are an association that cares about the technological development of the country, that's why we become one of the sponsors of the AAAI Student Chapter contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.",
-    es:"Somos una asociación que se preocupa por el desarrollo tecnológico del país, por eso es que nos convertimos en uno de los sponsor del AAAI Student Chapter contribuyendo así a que más alumnos tengan conocimientos sobre inteligencia artificial y otros campos relacionados que actualmente se van volviendo mas populares"
+  "We care for the wellbeing of the community that will be in charge of leading to a better future in this country, so we have joined forces with the <strong>Fundación de Apoyo a la Juventud</strong> that supports young people who are in situation of serious vulnerability and discrimination accompanying them in the planning of their life project.":{
+    en:"We care for the wellbeing of the community that will be in charge of leading to a better future in this country, so we have joined forces with the <strong>Fundación de Apoyo a la Juventud</strong> that supports young people who are in situation of serious vulnerability and discrimination accompanying them in the planning of their life project.",
+    es:"Nos preocupamos por el bienestar de la comunidad que será la encargada de llevar a un mejor futuro este país, por ello hemos unido fuerzas con la <strong>Fundación de Apoyo a la Juventud</strong> que apoya a las y los jóvenes que se encuentran en situación de grave vulnerabilidad y discriminación acompañandolos en la planeación de su proyecto de vida."
+  },
+  "We are an association that care about the technological development of the country, that's why we become one of the sponsors of the <strong>AAAI Student Chapter México</strong> contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.":{
+    en:"We are an association that care about the technological development of the country, that's why we become one of the sponsors of the <strong>AAAI Student Chapter México</strong> contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.",
+    es:"Somos una asociación que se preocupa por el desarrollo tecnológico del país, por eso es que nos convertimos en uno de los patrocinadores del <strong>AAAI Student Chapter México</strong> contribuyendo así a que más alumnos tengan conocimientos sobre inteligencia artificial y otros campos relacionados que actualmente se van volviendo más populares."
   }
 };
 
@@ -189,7 +193,7 @@ function changeLang(lang, event) {
     $("#tec").text("SERVICIOS DE INGENIERÍA & TECNOLOGÍA");
     $("#prod").text('Productos & Servicios');
     $("#prod1").text('Productos & Servicios');
-    $("#vision").text('Para convertirse en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina.');
+    $("#vision").text('Convertirnos en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina.');
   } else {
     $("#tec").text("TECHNOLOGY & ENGINEERING SERVICES");
     $("#prod").text('Products & Services');

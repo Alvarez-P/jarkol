@@ -179,6 +179,10 @@ var dict = {
   "We are an association that care about the technological development of the country, that's why we become one of the sponsors of the <strong>AAAI Student Chapter México</strong> contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.":{
     en:"We are an association that care about the technological development of the country, that's why we become one of the sponsors of the <strong>AAAI Student Chapter México</strong> contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.",
     es:"Somos una asociación que se preocupa por el desarrollo tecnológico del país, por eso es que nos convertimos en uno de los patrocinadores del <strong>AAAI Student Chapter México</strong> contribuyendo así a que más alumnos tengan conocimientos sobre inteligencia artificial y otros campos relacionados que actualmente se van volviendo más populares."
+  },
+  "Discover Products":{
+    en:"Discover Products",
+    es:"Ver más Productos"
   }
 };
 

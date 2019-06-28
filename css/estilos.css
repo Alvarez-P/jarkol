@@ -80,3 +80,26 @@
   .carousel  .owl-dot.active {
     background-color: #3899EC;
   }
+  .fund{
+    display:block;
+    position:relative;
+    background-color: #435494;
+    border:6px solid #435494;
+    border-radius: 20px;
+    }
+    .fund img{
+      width: 108%;
+      height: 100%;
+      padding: 6px;
+    }
+    .fund:before
+    {
+        display:block;
+        content:'';
+        position:absolute;
+        width:100%;
+        height:100%;
+        -moz-box-shadow:inset 0px 0px 20px 20px #435494;
+        -webkit-box-shadow:inset 0px 0px 20px 20px #435494;
+        box-shadow:inset 0px 0px 20px 20px #435494;
+    }
